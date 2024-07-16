@@ -40,7 +40,22 @@ var input = document.createElement("p")
 }
 
 
-var line_brk= br_create();
+var line_brk1= br_create();
+var line_brk2= br_create();
+var line_brk3= br_create();
+var line_brk4= br_create();
+var line_brk5= br_create();
+var line_brk6= br_create();
+var line_brk7= br_create();
+var line_brk8= br_create();
+var line_brk9= br_create();
+var line_brk10= br_create();
+var line_brk11= br_create();
+var line_brk21= br_create();
+var line_brk31= br_create();
+var line_brk41= br_create();
+var line_brk51= br_create();
+
 
 var fName = label_create("label","for","fname","FirstName");
 var fname_inp = input_create("input","type","text","id","fname");
@@ -62,18 +77,15 @@ var password = label_create("label","for","pass","Password");
 var pass_inp = input_create("input","type","text","id","pass");
 // document.body.append(password,line_brk,pass_inp)
 
-{/* <button type="button" onclick="foo()"> Click me</button> */}
-
-var button = button_create("button","type","button","onclick","foo()","Click me")
+var button_click = button_create("button","type","button","onclick","foo()","Click me")
 
 document.body.append(
-    fName,line_brk,fname_inp,line_brk,
-    mName,line_brk,mname_inp,line_brk,
-    lName,line_brk,lname_inp,line_brk,
-    email,line_brk,email_inp,line_brk,
-    password,line_brk,pass_inp,line_brk,
-    button
-
+    fName,line_brk1,fname_inp,line_brk2,line_brk11,
+    mName,line_brk3,mname_inp,line_brk4,line_brk21,
+    lName,line_brk5,lname_inp,line_brk6,line_brk31,
+    email,line_brk7,email_inp,line_brk8,line_brk41,
+    password,line_brk9,pass_inp,line_brk10,line_brk51,
+    button_click
 )
 
 
